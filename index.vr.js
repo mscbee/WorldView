@@ -11,7 +11,7 @@ export default class WorldView extends React.Component {
   render() {
     return (
       <View>
-        <VideoPano source={asset('world.webm')}/>
+        <VideoPano source={asset('london.webm')}/>
         <Text
           style={{
             fontSize: 0.8,
